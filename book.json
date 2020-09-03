@@ -1,0 +1,59 @@
+{
+    "title": "CRS_GIT_BOOK", 
+    "description": "CRS开发统计", 
+    "author": "Carl.sun", 
+    "language": "zh-hans", 
+    "root":".",
+    "structure": { 
+        "readme": "README.md"
+    },
+    "links": { 
+        "sidebar": {
+            "CRO": "https://kunlun-staging.shijicloud.com/CRO/",
+            "CCM": "https://kunlun-staging.shijicloud.com/CCM/",
+            "KEH": "https://kunlun-staging.shijicloud.com/CRM/",
+            "KXI": "https://kunlun-staging.shijicloud.com/KXI/",
+            "RMS": "https://kunlun-staging.shijicloud.com/RMS/",
+            "LPS": "https://kunlun-staging.shijicloud.com/LPS/",
+            "CSM": "https://kunlun-staging.shijicloud.com/ECRS/"
+            
+        }
+    },
+    "styles": { 
+        "website": "styles/website.css",
+        "ebook": "styles/ebook.css",
+        "pdf": "styles/pdf.css",
+        "mobi": "styles/mobi.css",
+        "epub": "styles/epub.css"
+    },
+    "plugins": [ 
+        "highlight",
+        "-lunr", "-search", "search-pro" ,
+        "livereload",
+        "back-to-top-button",
+        "chapter-fold",
+        "advanced-emoji", 
+        "emphasize",
+        "splitter",
+        "todo",
+        "tbfed-pagefooter",
+        "fontsettings",
+        "disqus",
+        "pageview-count",
+        "auto-scroll-table",
+        "lightbox",
+        "code",
+        "-sharing"
+    ],
+
+    "pluginsConfig": {
+        "tbfed-pagefooter": {
+            "copyright": false,
+            "modify_label": "该文件修订时间：",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
+        },
+        "disqus": {
+            "shortName": "webpack-handbook"
+          }
+    }
+}
