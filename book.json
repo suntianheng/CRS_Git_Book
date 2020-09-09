@@ -27,6 +27,7 @@
         "epub": "styles/epub.css"
     },
     "plugins": [ 
+	    "-links",
         "highlight",
         "-lunr", "-search", "search-pro" ,
         "livereload",
