@@ -7,18 +7,6 @@
     "structure": { 
         "readme": "README.md"
     },
-    "links": { 
-        "sidebar": {
-            "CRO": "https://kunlun-staging.shijicloud.com/CRO/",
-            "CCM": "https://kunlun-staging.shijicloud.com/CCM/",
-            "KEH": "https://kunlun-staging.shijicloud.com/CRM/",
-            "KXI": "https://kunlun-staging.shijicloud.com/KXI/",
-            "RMS": "https://kunlun-staging.shijicloud.com/RMS/",
-            "LPS": "https://kunlun-staging.shijicloud.com/LPS/",
-            "CSM": "https://kunlun-staging.shijicloud.com/ECRS/"
-            
-        }
-    },
     "styles": { 
         "website": "styles/website.css",
         "ebook": "styles/ebook.css",
@@ -27,7 +15,6 @@
         "epub": "styles/epub.css"
     },
     "plugins": [ 
-	    "-links",
         "highlight",
         "-lunr", "-search", "search-pro" ,
         "livereload",
