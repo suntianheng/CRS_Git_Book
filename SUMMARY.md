@@ -19,6 +19,8 @@
 
 -----
 * [Kunlun_KXI](Kunlun_KXI/README.md)
+    * [KXI](Kunlun_KXI/KXI/KXI.md)
+    * [OXI](Kunlun_KXI/OXI/OXI.md)
 
 -----
 * [Kunlun_KWS](Kunlun_KWS/README.md)
